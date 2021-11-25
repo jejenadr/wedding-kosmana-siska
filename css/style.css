@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Alice&family=Zilla+Slab:wght@300&display=swap");
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+header {
+  background-color: lightskyblue;
+}
+
+header nav.navbar .navbar-brand {
+  font-family: "Alice", serif;
+  font-weight: 700;
+  font-size: 26px;
+}
+
+header nav.navbar .nav-item {
+  font-family: "Alice", serif;
+}
+
+.section-hero .overlay {
+  color: #eee;
+  position: absolute;
+  z-index: 12;
+  top: 15%;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.section-hero .overlay h1 {
+  font-size: 27px;
+  font-weight: 700;
+  font-family: "Zilla Slab", sans-serif;
+  text-shadow: 2px 2px 3px black;
+}
+
+.section-hero .overlay h3 {
+  font-size: 16px;
+  font-family: "Alice", sans-serif;
+}
+
+.section-counter {
+  background-color: #888;
+  color: white;
+}
+
+.section-counter h4 {
+  font-family: "Zilla Slab", sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.section-counter .counter {
+  font-size: 60px;
+  line-height: 60px;
+  text-transform: uppercase;
+  font-family: "Alice", sans-serif;
+  color: #fff;
+}
+
+.section-counter .counter-title {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: "Zilla Slab", sans-sarif;
+}
+.section-groom-and-bride {
+  background-color: #eee;
+}
+.section-groom-and-bride img {
+  border-radius: 50%;
+  width: 50%;
+}
+
+.section-groom-and-bride .caption {
+  text-transform: uppercase;
+  font-family: "Zilla Slab", sans-serif;
+  font-weight: 700;
+  color: #999;
+}
+
+.section-groom-and-bride h2 {
+  color: #888;
+  font-family: "Alice", sans-serif;
+  font-weight: 700;
+}
+
+.section-groom-and-bride p {
+  color: #777;
+  line-height: 1.7;
+  font-size: 18px;
+  font-family: "Alice", sans-serif;
+}
+
+.section-when-and-where {
+  background-color: #999;
+  color: #fff;
+  font-family: "Alice", sans-serif;
+}
+
+.section-when-and-where h2 {
+  font-family: "Zilla Slab", sans-serif;
+}
+
+.section-when-and-where h3 {
+  font-family: "Zilla Slab", sans-serif;
+}
+
+.section-when-and-where img {
+  border-radius: 8px;
+}
+
+/*style resepsi*/
+.section-resepsi-and-akad {
+  background-color: #eee;
+  color: #666;
+  font-family: "Alice", sans-serif;
+}
+
+.section-resepsi-and-akad h2 {
+  font-family: "Zilla Slab", sans-serif;
+}
+
+.section-resepsi-and-akad h3 {
+  font-family: "Zilla Slab", sans-serif;
+}
+
+.section-resepsi-and-akad img {
+  border-radius: 9px;
+}
+/*akhir style resepsi*/
+
+/*style gallery*/
+.section-gallery {
+  background-color: #777;
+}
+.section-gallery h2 {
+  color: #fff;
+  font-family: "Zilla Slab", serif;
+}
+
+.section-gallery .mask {
+  height: 300px;
+  border-radius: 10px;
+}
+
+.section-gallery .height-2x {
+  height: 616px;
+}
+/*akhir style gallery*/
+
+/*Style Manual*/
+.undangan {
+  text-align: center;
+}
+footer {
+  background-color: #777;
+}
+/*# sourceMappingURL=style.css.map */

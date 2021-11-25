@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Alice&family=Zilla+Slab:wght@300&display=swap");
+
+h1 {
+  font-size: 80px;
+  font-weight: 700;
+}
+h2 {
+  font-size: 60px;
+  font-weight: 700;
+}
+h3 {
+  font-size: 40px;
+  font-weight: 700;
+}
+h4 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+header {
+  background-color: lightskyblue;
+  nav.navbar {
+    .navbar-brand {
+      font-family: "Alice", serif;
+      font-weight: 700;
+      font-size: 26px;
+    }
+    .nav-item {
+      font-family: "Alice", serif;
+    }
+  }
+}
+.section-hero {
+  .overlay {
+    color: #fff;
+    position: absolute;
+    z-index: 12;
+    top: 25%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding-left: 8px;
+    padding-right: 8px;
+    h1 {
+      font-size: 20px;
+      font-weight: 700;
+      font-family: "Zilla Slab", sans-serif;
+      text-shadow: 2px 2px 3px black;
+    }
+    h3 {
+      font-size: 20px;
+      font-family: "Alice", sans-serif;
+    }
+  }
+}
+.section-counter {
+  background-color: #777;
+  color: white;
+  h4 {
+    font-family: "Zilla Slab", sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 1px;
+  }
+  .counter {
+    font-size: 72px;
+    line-height: 60px;
+    text-transform: uppercase;
+    font-family: "Alice", sans-serif;
+    color: #fff;
+  }
+  .counter-title {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: "Zilla Slab", sans-sarif;
+  }
+}
+.section-groom-and-bride {
+  img {
+    border-radius: 50%;
+    width: 50%;
+  }
+  .caption {
+    text-transform: uppercase;
+    font-family: "Zilla Slab", sans-serif;
+    font-weight: 700;
+    color: burlywood;
+  }
+  h2 {
+    color: burlywood;
+    font-family: "Alice", sans-serif;
+    font-weight: 700;
+  }
+  p {
+    color: burlywood;
+    line-height: 1.7;
+    font-size: 18px;
+    font-family: "Alice", sans-serif;
+  }
+}
+.section-when-and-where {
+  background-color: #777;
+  color: #fff;
+  font-family: "Alice", sans-serif;
+  h2 {
+    font-family: "Zilla Slab", sans-serif;
+  }
+  h3 {
+    font-family: "Zilla Slab", sans-serif;
+  }
+  img {
+    border-radius: 8px;
+  }
+}
+.section-gallery {
+  h2 {
+    color: #666;
+    font-family: "Zilla Slab", serif;
+  }
+  .mask {
+    height: 300px;
+    border-radius: 10px;
+  }
+  .height-2x {
+    @include media-breakpoint-up(md) {
+      height: 616px;
+    }
+  }
+}
